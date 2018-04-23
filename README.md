@@ -31,33 +31,4 @@
 #### Information sharing
 #### Collaboration
 
-### 4. Cluster
-#### Purpose
-#### Benefits
-#### Resource implications
-#### Communications
-#### Working practice
-#### Commercial opportunity
-#### Information sharing
-#### Collaboration
-
-### 5. Centralised
-#### Purpose
-#### Benefits
-#### Resource implications
-#### Communications
-#### Working practice
-#### Commercial opportunity
-#### Information sharing
-#### Collaboration
-
-### 6. Virtualised 
-#### 1.Purpose
-#### 2.Benefits
-#### 3.Resource implications
-#### 4.Communications
-#### 5.Working practice
-#### 6.Commercial opportunity
-#### 7.Information sharing
-#### 8.Collaboration
 
