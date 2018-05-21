@@ -6,7 +6,7 @@
 #### The benefits of using this type of network is that you do not need an expensive server because individual workstationsare used to acces the files, there is no need for any specialist staff such as a network technicaians to set up the server between the PCs and finally if one computer fails it will not disrupt any other part of the network. It just means that those files are not available to other users at that time. The constraints of using this type of network is that each computer might be being accessed by others which can then slow down the performance for the user, files and folders cannot be centrally backed up, there is no security besides the permissions and files are not organised into a specific area so they might be difficult to locate if the computers owner doesn't have a logical filing system. 
 #### The resources that are implicated to make a peer-based network is a couple of PC systems and are connected through a broadband connection or connected by ethernet. These systems communicate through each other usually having a wired connection as it is more stable than having a wireless connection as it might affect the performance of the host user. They are able to send or take files from one 
 #### Communications, how devices communicate, e.g. ethernet
-#### Working practice
+#### Working practice  
 #### Commercial opportunity
 #### Information sharing
 #### Collaboration
@@ -16,10 +16,10 @@
 #### Benefits
 #### Resource implications
 #### Communications
-#### 5.Working practice
-#### 6.Commercial opportunity
-#### 7.Information sharing
-#### 8.Collaboration
+#### Working practice
+#### Commercial opportunity
+#### Information sharing
+#### Collaboration
 
 ### 3. Cloud
 #### Purpose
@@ -31,4 +31,18 @@
 #### Information sharing
 #### Collaboration
 
+### OSI model
+### Benefits
+### Constraints
+
+### TCP/IP model
+### Benefits
+### Constraints
+
+### Working standards and Protocols
+
+
+•	IEEE 802.3, .7, .8, .11 for physical cabling and data transmission
+•	Routed protocols (IPv4, IPv6) address issues of IPv4 & IPv6, Global unicast, Multicast, Link local, Unique local, EUI 64 & Auto configuration, 
+•	Services and network applications: FTP, HTTP, SMTP, POP3, SSL.
 
