@@ -1,11 +1,16 @@
 # Networking
 
 ## Types of Networks:
-### 1. Peer-based
+## 1. Peer-based
+### Purpose
 #### Purpose of a peer-based network is when a network is created between two or more PCs that are connected and are able to share resources without going through a separate server computer.
+### Benefits
 #### The benefits of using this type of network is that you do not need an expensive server because individual workstations are used to access the files, there is no need for any specialist staff such as a network technician to set up the server between the PCs and finally if one computer fails it will not disrupt any other part of the network. It just means that those files are not available to other users at that time. The constraints of using this type of network is that each computer might be being accessed by others which can then slow down the performance for the user, files and folders cannot be centrally backed up, there is no security besides the permissions and files are not organised into a specific area so they might be difficult to locate if the computers owner doesn't have a logical filing system. 
+### Resource Implications
 #### The resources that are implicated to make a peer-based network is a couple of PC systems and are connected through a broadband connection or connected by Ethernet. These systems communicate through each other usually having a wired connection as it is more stable than having a wireless connection as it might affect the performance of the host user. They are able to send or take files from one 
+### Communications
 #### The communication that is used within a peer-based network is usually through Ethernet which then is connected to a hub which other PCs are connected also to then allow each PC to communicate with one another. This can also be done wirelessly by have a closed connection between each of the computers that will be in the network. 
+### Working Practice
 #### The working practice used in a peer-based network would be on how you will use this in a day to day basis. The Peer-based network would work is certain places such as your home or workplace. For example, if a team working together need to share ideas or designs around they would easily use this network as they are local, also this can be done at home if you have multiple PCs so that you are able to access files from any of your PCs in the house.
 #### The Peer-based network is usually used only for smaller companies as using this in large companies would be impractical. But also for smaller companies this could then require a heavy load of cabling, so this should mainly be used for projects and have a certain area so there is not a huge amount of cabling to connect every computer to one another.
 #### A peer-based network is very good at allowing information to be shared around as long it is not too big of a network. As to many computers connected all at once might then put more stress on the PCs as there are too many files going back and forth.
