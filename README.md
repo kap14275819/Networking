@@ -32,40 +32,40 @@
 ####
 
 ### 3. Cloud
-#### Purpose
-#### Benefits
-#### Resource implications
-#### Communications
-#### Working practice
-#### Commercial opportunity
-#### Information sharing
+### Purpose
+### Benefits
+### Resource implications
+### Communications
+### Working practice
+### Commercial opportunity
+## Information sharing
 
 ### 4. Cluster
-#### Purpose
-#### Benefits
-#### Resource implications
-#### Communications
-#### Working practice
-#### Commercial opportunity
-#### Information sharing
+### Purpose
+### Benefits
+### Resource implications
+### Communications
+### Working practice
+### Commercial opportunity
+### Information sharing
 
 ### 5. Centralised
-#### Purpose
-#### Benefits
-#### Resource implications
-#### Communications
-#### Working practice
-#### Commercial opportunity
-#### Information sharing
+### Purpose
+### Benefits
+### Resource implications
+### Communications
+### Working practice
+### Commercial opportunity
+### Information sharing
 
 ### 6. Virtualised
-#### Purpose
-#### Benefits
-#### Resource implications
-#### Communications
-#### Working practice
-#### Commercial opportunity
-#### Information sharing
+### Purpose
+### Benefits
+### Resource implications
+### Communications
+### Working practice
+### Commercial opportunity
+### Information sharing
 
 ## OSI model
 ### Benefits
