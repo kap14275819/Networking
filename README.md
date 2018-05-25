@@ -40,18 +40,70 @@
 #### Commercial opportunity
 #### Information sharing
 
-### OSI model
+### 4. Cluster
+#### Purpose
+#### Benefits
+#### Resource implications
+#### Communications
+#### Working practice
+#### Commercial opportunity
+#### Information sharing
+
+### 5. Centralised
+#### Purpose
+#### Benefits
+#### Resource implications
+#### Communications
+#### Working practice
+#### Commercial opportunity
+#### Information sharing
+
+### 6. Virtualised
+#### Purpose
+#### Benefits
+#### Resource implications
+#### Communications
+#### Working practice
+#### Commercial opportunity
+#### Information sharing
+
+## OSI model
 ### Benefits
+####
 ### Constraints
+#### 
 
-### TCP/IP model
+## TCP/IP model
 ### Benefits
+#### 
 ### Constraints
+#### 
 
-### Working standards and Protocols
+## Working standards and Protocols
+#### 
+
+## Physical Cabling and Data Transmission
+### IEEE 802.3
+### IEEE 802.7
+### IEEE 802.8
+### IEEE 802.11
+
+## Routed Protocols
+### IPv4
+### IPv6
+### Global Unicast
+### Multicast
+### Link local
+### Unique local
+### EUI 64
+### Auto Configuration
 
 
-•	IEEE 802.3, .7, .8, .11 for physical cabling and data transmission
-•	Routed protocols (IPv4, IPv6) address issues of IPv4 & IPv6, Global unicast, Multicast, Link local, Unique local, EUI 64 & Auto configuration, 
-•	Services and network applications: FTP, HTTP, SMTP, POP3, SSL.
+## Services and network applications: 
+### FTP
+### HTTP
+### SMTP
+### POP3
+### SSL
+
 
