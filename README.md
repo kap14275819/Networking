@@ -44,7 +44,7 @@
 
 ### 6. Virtualised
 #### A virtualised network is the process of combining hardware and software network resources and network functionality into a single, software-based administrative entity, a virtual network. 
-#### 
+#### The benefits of using a virtual network are 
 Virtual networks are easy to define. They reduce the networking hardware investment (fewer cables, hubs) and eliminate dependencies on hardware. They also simplify management and access with centralized access control.
 You can consolidate hardware by connecting guest systems that run in virtual machines in a single processor. You can eliminate separate hardware that runs these systems along with the cost, complexity, and maintenance of the networking components that are needed to connect them.
 Consolidating servers in a virtual network allows you to reduce or eliminate the overhead associated with traditional networking components.
