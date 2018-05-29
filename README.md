@@ -82,6 +82,7 @@ Physical - The bottommost layer is the physical layer that conveys the bit strea
 
 ## Routed Protocols
 ### IPv4
+
 ### IPv6
 ### Global Unicast
 ### Multicast
@@ -97,5 +98,22 @@ Physical - The bottommost layer is the physical layer that conveys the bit strea
 ### SMTP
 ### POP3
 ### SSL
+
+## Network Topology
+
+## Network Communication
+
+## Network Bandwidth
+
+
+## Operating principles of Networking
+
+## Interdependence of Workstation hardware 
+
+## Network Design
+
+## Evaluation of Network Design
+
+## Implemented System and Justification
 
 
