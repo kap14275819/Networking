@@ -44,22 +44,26 @@
 
 ### 6. Virtualised
 #### A virtualised network is the process of combining hardware and software network resources and network functionality into a single, software-based administrative entity, a virtual network. 
-#### The benefits of using a virtual network are that they are easy to define, this means that they simplify management and access with centralised access control. Another benefit is that you can consolidate hardware by connecting guest systems that run in virtual machines in a single processor. 
-Consolidating servers in a virtual network allows you to reduce or eliminate the overhead associated with traditional networking components.
-By defining a virtual network within a single processor, you do not need to consider network traffic outside the processor. As a result, you can achieve a high degree of network availability, security, and performance. For example, security features that are available to TCP/IP network interfaces are available to HiperSockets. Also, HiperSockets, like any other TCP/IP interface, is transparent to applications and operating systems.
-By deploying Ethernet mode guest LANs and virtual switches, you extend your virtual networking capability to include non-TCP/IP based applications. Some examples of these include SNA, IPX, and NetBIOS.
-You can configure virtual switches to use SNMP to provide Bridge MIBs in response to Network Management System (NMS) requests. You can also use SNMP traps to report events to a NMS. Those events include changes to the status of a guest's connection to a virtual switch and changes to the status of the virtual switch's connection to the external network.
-### Resource implications
-### Communications
-### Working practice
-### Commercial opportunity
+#### The benefits of using a virtual network are that they are easy to define, this means that they simplify management and access with centralised access control. Another benefit is that you can consolidate hardware by connecting guest systems that run in virtual machines in a single processor. Nothing physical is used with this type of networking and makes it more cost effective, with no need to utilize and maintain, physical switches, routers or servers. In case of a failure or a disaster, the virtualized network gets applications and systems up faster and even such outages can be prevented.
+#### This can be used by any type of company no matter what size and can used for anything to help them within the company. 
 
 ## Conceptual Models 
-## OSI model
-### Benefits
-####
-### Constraints
-#### 
+The Transmission Control Protocol/Internet Protocol model, shortened to TCP/IP is made up of many communication protocol used to connect network devices on the internet and is used as a communications protocol within a private network.
+
+It uses the client/server model of communication where a client is provided a service from another computer in the same network. The model is made up of different protocols and divided into four layers:
+
+Application - The application layer is responsible for providing network services to applications. High-level protocols are included within the application layer, such as Domain Naming System (DNS), Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), etc.
+Transport - This layer maintains the end-to-end communications within the network. The communications between the hosts are handled within this layer and flow control, multiplexing and reliability are maintained as well by the layer. Two protocols are used within this layer; TCP, for providing error control and successful delivery of the data, and UDP, though only used for less extensive control features.
+Internet - The internet layer, or network layer, packs the data into data packets and routes it to the correct device on the destination network. These packets then form the IP, containing the source and destination address used to transmit the IPs across networks.
+Network Access - The lowest layer is known as the Network Access Layer, that combines the data link and physical layers from the OSI model. It provides a means for the data to be delivered to other devices on a network and defines how the network should transmit an IP. This layer has to understand the details of the underlying network before it can format the data being transmitted.
+OSI Model
+Application - The application layer in the OSI model is a means for applications to receive network services, basically communicating the services to them such as file transfers and e-mail. Numerous protocols are used within this layer, such as Hypertext Transfer Protocol for web based languages transferred across the network and mail services by the SMPP protocol for email services.
+Presentation - The presentation layer is used for interpreting the data and transformed that the application layer can use it. Many file types are represented by the application and can be converted, encrypted, decrypted or compressed.
+Session - The session layer establishes connections between applications and can set up, coordinate and terminate the conversations that happens between them. The protocols used are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP), commonly provided within most applications.
+Transport - This layer provides the transferal of data between hosts or end systems and is responsible for error recovery and flow control. TCP and USP protocols, used in the session layer, provide these services through the internet for most applications.
+Network - The network layer handles the addressing and routing of data, where it is sent in the correct direction, selecting the appropriate routes and forwarding the data to the transport layer. The protocols that map to the OSI network include the IP protocol from the TCP/IP model, both IPv4 and IPv6, as well as Interwork Packet Exchange (IPX).
+Data Link - The data link layer is responsible for encoding the data prior to the transmission and decoding the data back into the bits at the destination, mainly handling the data transfer out of a physical link. The layer divides itself into two sub-layers; Media Access Control, how the computer gains access to the data and the permission to transfer said data, and Logical Link Control, controlling the frame synchronization, flow control and error checking.
+Physical - The bottommost layer is the physical layer that conveys the bit stream across the network. This is done via electrical impulse, light or a radio signal. A variety of devices and mediums are covered, through cables, cards and other ports.
 
 ## TCP/IP model
 ### Benefits
