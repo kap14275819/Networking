@@ -115,9 +115,13 @@
 ### SSL
 #### Secure Sockets Layer or SSL, is a security technology standard that allows encrypted linking between web servers and browsers. This standard ensures that the more sensitive data is transmitted securely, this includes information such as credit card numbers, account credentials.
 
+## The Impact of networking topology, communication and bandwidth
+### Network Topology
+Logical Topologies are concepts, defining the architecture of the communication of the nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. The topology is mainly defining how the signals act on the network media or how data passes through the network to the devices.
 
-## Network Topology
+Ethernet is based on a type of logical topology known as the bus topology, which is a common logical solution defines the physical topologies, laying out the logics of the data travelling to all devices from one device in a network.
 
+The physical topology refers to the actual structure of a LAN, utilising various networking cables to connect the physical devices on the network. It allows for organization of the network, by physically laying it out. It takes a lot of planning by determining the cable to be used and how they it runs through the building.
 
 ## Network Communication
 
