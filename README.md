@@ -64,6 +64,19 @@
 #### Data Link - The data link layer is responsible for encoding the data prior to the transmission and decoding the data back into the bits at the destination, mainly handling the data transfer out of a physical link. This layer divides itself into two sub-layers; Media Access Control which is how the computer gains access to the data and the permission to transfer said data, and the Logical Link Control which controls the frame synchronisation, flow control and error checking.
 #### Physical - The last layer is the physical layer that conveys the bit stream across the network. This is done via electrical impulse, light or a radio signal. A variety of devices and mediums are covered, through cables, cards and other ports.
 
+### Comparison of the two models
+|TCP/IP|OSI|
+|------|---|
+|Has 4 layers within the model.|The OSI model has 7 layers.|
+|Follows a horizontal approach.|Follows a vertical approach.|
+|TCP/IP model is more lenient in terms of boundaries.|The OSI model has strict boundaries.|
+|In the TCP/IP model the transport layer does not guarantee the delivery of packets.|The OSI models transport layer guarantees the delivery of packets.|
+|TCP/IP can only support connectionless communication from the network layer.|OSI can support both connectionless and connection-oriented communication within the network layer.|
+|The model doesn’t clearly differentiate between services, interfaces and protocols.|Within the OSI there is a clear distinction between the services, interfaces and protocols.|
+|TCP/IP is very dependant on protocols.|OSI doesn't depend on protocols.|
+|No separate session and presentation layer. The characteristics are provided by the application and transport layer respectively.|OSI model separate presentation and session layer .| 
+
+
 ## Working standards and Protocols
 #### 
 
