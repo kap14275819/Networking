@@ -78,34 +78,46 @@
 
 
 ## Working standards and Protocols
-#### 
 
-## Physical Cabling and Data Transmission
+### Physical Cabling and Data Transmission
 ### IEEE 802.3
+#### IEEE 802.3 which is the standard used for Ethernet. This standard is used to determine the physical connection within a local area network (LAN), this can also be used within (WAN) set-ups. This is of course maintained by the Institute of Electrical and Electronics Engineers (IEEE). The communication standards for ethernet connections and cables are updated regularly adding additional features however 802.3 was the first IEEE standard to be implemented. This standard is essentially specifying the physical cables and the working characteristics of Ethernet. The speeds of these connections that are described on this standard must be at speed of 10Mbps.
+
 ### IEEE 802.7
+#### This standard is a sub-standard of the IEEE 802 which is recommended for broadband LAN connections. The items that are specified with the standard are the design, installation and the test parameters for the broadband cable medium that is used within the network.
+
 ### IEEE 802.8
+#### The IEEE 802.8 standard which is referred to the standard of fibre optic connections is used in token passing computer networks. This is used in the same group as the previous standards and has some of the defining features within. This essentially gives the recommendations for configuration and testing of fibre optic however is called a standard by itself as it covers a different connection type.
+
 ### IEEE 802.11
+#### IEEE 802.11 is referred to the set of standards that define communication in wireless connections. This includes the most popular form of connection Wi-Fi and is used mainly as a set of guidelines that is for implementing Wi-Fi to a network. This standard is used to outline the types of frequencies that are being used when using access points and other network devices.
 
-## Routed Protocols
-### IPv4
+### Routed Protocols
+#### Routed protocols are protocols that are used to route data from one network to another. These protocols have an addressing system that is used to address a particular network or host. 
 
-### IPv6
-### Global Unicast
-### Multicast
-### Link local
-### Unique local
-### EUI 64
-### Auto Configuration
+#### IPv4 which was one of the core protocols within standard-based interworking methods on the internet. This IP version 4 was thought to have enough addresses but due to the population of the world which has drastically increased and the amount of devices that have been manufactured for more actives users, which then meant that there was not enough IPv4 addresses to assign. IPv6 which was introduced to create considerable amount of addresses to fulfil the requirement needed which has more than 4 billion which IPv4 had. Global Unicast which is a feature in IPv6 that is a routable address that can be used on the internet that uses a single node. The main problem with global unicast is that when the data packets are sent they are not actually sent to one target destination. When the data packet that is supposed to be sent off to a single destination, is then sent to all hosts as a broadcast packet making this protocol a potential security risk.
 
+#### Link local is an IPv6 unicast address that is only effective for communications within the link or the broadcast domain where the host is connected. This address is not unique beyond a single link and routers cannot forward the packets that have a link-local address. A Unique Local Address (ULA) is an address that is used in IPv6 as an identifier. The only problem is that data is not meant to be routed outside of the specified range and should not be allocated by an address registry. The EUI 64 (Extended Unique Identifier) which is a format that allows a host to automatically assign itself a unique 64-bit IPv6 interface identifier, which eliminates the need to manually configure the IP or to used DHCP in IPv4 addresses. This is a benefit of IPv6's over IPv4 is the capability for automatic interface addressing. The problem that appears from using this that privacy loss would be a potential concern, with the MAC address of the router being revealed. Auto-configuration is another important features in IPv6 that allows devices to automatically configure themselves and to use the internet without requiring any DHCP support making it good for applications to require a secure connection without the DHCP server. 
 
 ## Services and network applications: 
 ### FTP
+#### File transfer protocol or FTP, is a protocol that focuses on transmitting files between two networks over TCP/IP. This type of protocol relies of two communication channels which is a server and a client who is then able to edit multiple files using FTP, the client is also able to upload, download and delete files on the server. In order to use FTP there must be some servers that can be logged into in order to gain access to the files transferred.
+
 ### HTTP
+#### Hypertext Transfer Protocol or HTTP is the protocol that is used by the World Wide Web. This protocol governs the actions in which web servers or browsers should take in from the user's commands in order to respond. HTTP is used to display the webpage to the user and provide with the visual representation of that webpage, and also helps handle the display and format to allow a much faster load time. 
+
 ### SMTP
+#### SMTP or Simple Mail Transfer Protocol, which is a protocol that us used for emailing messages to other users on different servers. This protocol is used to connect servers that allows messages that clients can send from one to another.
+
 ### POP3
+#### POP3 or Post Office Protocol, is a protocol in which allows clients to receive emails. The most recent version is POP3 in which the email is held for the user by the internet server and once the mail is downloaded, it can be deleted, though it can still be saved for a period of time. This protocol has many updates and within each of the updates it allows more features to make it much easier to handle emails for the clients and easier in receiving emails.
+
 ### SSL
+#### Secure Sockets Layer or SSL, is a security technology standard that allows encrypted linking between web servers and browsers. This standard ensures that the more sensitive data is transmitted securely, this includes information such as credit card numbers, account credentials.
+
 
 ## Network Topology
+
 
 ## Network Communication
 
