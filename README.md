@@ -117,13 +117,24 @@
 
 ## The Impact of networking topology, communication and bandwidth
 ### Network Topology
-Logical Topologies are concepts, defining the architecture of the communication of the nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. The topology is mainly defining how the signals act on the network media or how data passes through the network to the devices.
+#### Network topolgies are the rules by which different networks are designed. Logical topologies are concepts that specify the architecture of the communication of nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. This is mainly specifying on how the signals act on the network media and how the data passes through the network to the devices. Ethernet is a good example that is based on a type of logical topology which is known as the bus topology.
 
-Ethernet is based on a type of logical topology known as the bus topology, which is a common logical solution defines the physical topologies, laying out the logics of the data travelling to all devices from one device in a network.
+#### The physical topology assigns to the actual structure of a Local Area Network. This ustilises various network cables that then are connected to the physical devices that are on the network. This physically lays it out for the organisation of a network. This usually requires a lot of planning by determining the cable to be used and how they it runs through the building.
 
-The physical topology refers to the actual structure of a LAN, utilising various networking cables to connect the physical devices on the network. It allows for organization of the network, by physically laying it out. It takes a lot of planning by determining the cable to be used and how they it runs through the building.
+#### 1. The mesh topology, this is where multiple connections are made between multiple systems and are all connected to each system that is on the network, this means that if one fails the other systems will use different routes on the network to connect to another system.
+
+#### 2. The ring topology, this is where all the systems in the network have been arranged into a circular formation. This means that each devices is connected to two other devices on the network the data packets travel around these systems until it reaches its destination. 
+
+#### 3. The star topology, this topology is where all the machines are connected to a single hub or sometimes a switch at the center of the network. This is why it has the name star network, as the connections branch out to give the look of a star. So if the central hub fails no systems can communicate with one another.
+
+#### 4. The bus topology, is a common topology where every single component within the network are all connected on a straight line and are terminated on both end. This creates a stress on the single connecting line as most files would be transmitted through that line which will be a heavy load.
+
+#### 5. A tree topology is a combination of a star network topology and a bus topology. In a tree topology, nodes of the underlying bus network topology are replaced with a complete star topology which then creates a tree like topology.
+
 
 ## Network Communication
+#### 
+
 
 ## Network Bandwidth
 
