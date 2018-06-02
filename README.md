@@ -117,15 +117,15 @@
 
 ## The Impact of networking topology, communication and bandwidth
 ### Network Topology
-#### Network topolgies are the rules by which different networks are designed. Logical topologies are concepts that specify the architecture of the communication of nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. This is mainly specifying on how the signals act on the network media and how the data passes through the network to the devices. Ethernet is a good example that is based on a type of logical topology which is known as the bus topology.
+#### Network topologies are the rules by which different networks are designed. Logical topologies are concepts that specify the architecture of the communication of nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. This is mainly specifying on how the signals act on the network media and how the data passes through the network to the devices. Ethernet is a good example that is based on a type of logical topology which is known as the bus topology.
 
-#### The physical topology assigns to the actual structure of a Local Area Network. This ustilises various network cables that then are connected to the physical devices that are on the network. This physically lays it out for the organisation of a network. This usually requires a lot of planning by determining the cable to be used and how they it runs through the building.
+#### The physical topology assigns to the actual structure of a Local Area Network. This utilises various network cables that then are connected to the physical devices that are on the network. This physically lays it out for the organisation of a network. This usually requires a lot of planning by determining the cable to be used and how they it runs through the building.
 
 #### 1. The mesh topology, this is where multiple connections are made between multiple systems and are all connected to each system that is on the network, this means that if one fails the other systems will use different routes on the network to connect to another system.
 
-#### 2. The ring topology, this is where all the systems in the network have been arranged into a circular formation. This means that each devices is connected to two other devices on the network the data packets travel around these systems until it reaches its destination. 
+#### 2. The ring topology, this is where all the systems in the network have been arranged into a circular formation. This means that each device is connected to two other devices on the network the data packets travel around these systems until it reaches its destination. 
 
-#### 3. The star topology, this topology is where all the machines are connected to a single hub or sometimes a switch at the center of the network. This is why it has the name star network, as the connections branch out to give the look of a star. So if the central hub fails no systems can communicate with one another.
+#### 3. The star topology, this topology is where all the machines are connected to a single hub or sometimes a switch at the centre of the network. This is why it has the name star network, as the connections branch out to give the look of a star. So, if the central hub fails no systems can communicate with one another.
 
 #### 4. The bus topology, is a common topology where every single component within the network are all connected on a straight line and are terminated on both end. This creates a stress on the single connecting line as most files would be transmitted through that line which will be a heavy load.
 
@@ -133,24 +133,110 @@
 
 
 ## Network Communication
-## Network Bandwidth
 
-#### Communication is the transmission of data from one system to another, this can be a mobile device or a computer, the transmission is usually over a network set-up by a company. When browsing the internet the most common process that is used is data transmission between the user and the server, for example, sending an email to another user or retrieving a file from the internet. However if a user would want use the internet, then they would have to acquire a connection that will allow them to use the internet. Devices such as a router or a modem are used to connect to a network, this then allows the communication with the internet.
+#### Communication is the transmission of data from one system to another, this can be a mobile device or a computer, the transmission is usually over a network set-up by a company. When browsing the internet, the most common process that is used is data transmission between the user and the server, for example, sending an email to another user or retrieving a file from the internet. However, if a user would want to use the internet, then they would have to acquire a connection that will allow them to use the internet. Devices such as a router or a modem are used to connect to a network, this then allows the communication with the internet.
 
 #### Data is transmitted all the time through networks, but this data flowing through can be vulnerable to malicious attacks from hackers that try to gain information from users. Security measures must be put into place such as firewalls or anti-virus software into a network. This then protects the network from any types of attacks, so the firewall will stop any file that does not belong within the network trying to gain access but also if one does get through the anti-virus software will prevent the malicious attack from spreading around and damaging the network.
 
-#### Communication also happens within a network model, for example, TCP/IP model has an application layer which allows services to be requested from a user to the application. This means that the data is ready to be sent, but waits as the communication is not focused in this layer but instead the transport and internet layer. The transport layer handles the communication between each of the host so that there will be a successful delivery between then. The internet layer sends this data across to the correct host and not to other hosts that may be requesting the same service. Each of these layers aid the communication of data successfully by having the data transfer mointored and to make sure that the communication is with the correct host. All communication channels within any networking model have limited frequency bandwidth, these limited frequencies are down to the properties of the channel so that it may prevent any interference from other sources. Since the frequencies are limited the bandwidth cannot be maximised to its full potential and can cause problems, for example when having low bandwidth it can reduce speed in both browsning and downloading/uploading, making a huge congestion of data being blocked.
+## Network Bandwidth
+#### Communication also happens within a network model, for example, TCP/IP model has an application layer which allows services to be requested from a user to the application. This means that the data is ready to be sent, but waits as the communication is not focused in this layer but instead the transport and internet layer. The transport layer handles the communication between each of the host so that there will be a successful delivery between then. The internet layer sends this data across to the correct host and not to other hosts that may be requesting the same service. Each of these layers aid the communication of data successfully by having the data transfer monitored and to make sure that the communication is with the correct host. All communication channels within any networking model have limited frequency bandwidth, these limited frequencies are down to the properties of the channel so that it may prevent any interference from other sources. Since the frequencies are limited the bandwidth cannot be maximised to its full potential and can cause problems, for example when having low bandwidth, it can reduce speed in both browsing and downloading/uploading, making a huge congestion of data being blocked.
 
 
 ## Operating principles of Networking
+### Networking Devices
+### Hubs
+#### Hubs serve as a central connection point for devices within a network and can be either wireless or wired. These are used to manage and route traffic over local connections, however this data is sent one packet at a time so that all users do not recieve a copy. It usually contains multiple ports so that it is able to connect with a variety of devices.
+
+### Routers
+#### Routers are electronic devices that are able to connect multiple computer networks and then are able to receive, analyse and move incoming packets of data to another network. The data that is sent off runs through a number of network points with other routers before it reaches its destination. Routers are also able to determine the best route for packets of data to travel on.
+
+### Switches
+#### Switches are devices that are able to receive incoming data packets and then redirect them to the correct destination within a LAN. This also creates an electronic tunnel that allows only the traffic that is requested, so whilst the data is being transmitted, no other packets can enter which then allows communication without any collisions.
+
+### Multilayer Switch
+#### A multilayer switch is a device that is similar to a switch however it can operate better and on higher levels than a traditional switch, performing the same functions but at a faster rate. Higher level functions were added to the switch which allows it to look into the packets of data to then help forwarding that data to its correct location
+
+### Firewall
+#### Firewalls have the functional software that protects different packets and also blocking malicious packets from entering a system. It enforces a set of rules for what traffic can enter or leave a network. The firewall is placed to filter the amount of traffic from entering and have a set of requirements to enter and if they are not met, then the firewall will block these packets that do not meet them.
+
+### HIDS
+#### HIDS or Host-Based Intrusion Detection System, is a system which specialises for overseeing internal components in a system in order to detect for an intrusion. This system analuses traffic on the computer that has it installed and reports any malicious packets that are entering or exiting the network.
+
+### Repeaters
+#### A repeater is a device that is within a network that is used to repair or replicate signals that have been distorted from any electromagnetic interference. This can also relay messages between subnetworks using different protocols and cables, it can also strengthen signals on networks which can extend the LAN beyond its limits. 
+
+### Bridges
+#### Network bridges provide interconnection with other bridge networks that also use the same protocol. These are mainly used in LANs because of how they are able to block up large networks because of their ability to then transmit the data to all the nodes within that network. Bridges also use a database to determine where the the data frame can pass, transmit or be discarded.
+
+### Access Point
+#### An Access Point is a station that provides users with a wireless connection to a wired network. Wireless access point are the most common, such as Wi-Fi which allows users to connect to the network remotely. It can provide connectivity to anyone in the network anywhere and remain connected to that network.
+
+### Content Filter
+#### Content filtering is a simple concept, it uses a pre-determined set of rules to prevent and exclude any data that is considered spam or malicious. This is mainly used for security purposes so that it prevents network users from connection to websites that have malicious software on it. Email servers commonly use content filters to filter spam emails.
+
+### Load Balancer
+#### Load balancer is a software that is used to distribute the workload over an entire network. This maximises speed and efficieny by having the traffic requests routed across servers to then ensure that none of them overload with traffic. Each new server that is added, the balancer then sends the requests to it automatically so other do not overload.
+
+### Modem
+#### A modem is a device that is used for trasmitting data over a cable or telephone connection. The modem is so called because it modulates or demodulates analogue signal simultaneously to digital signal for a computer to recognize and vice versa for other devices.
+
+### Packet Shaper
+#### A packet shaper are used to prioritise certain data being sent over a network. This is used to regulate the data that is transferred to maintain a level of performance and quality. It delays the packets of data that is considered as less important for more prioritized traffic, such as instant messages to wait to be sent whilst more important datalike security information is sent. 
+
+### VPN Concentrator
+#### A VPN concentrator is a network device that provides a secure connection and delivery of data between VPN nodes. It adds to the capabilities of a VPN, allowing for many people to access the VPN at the same time.
+
+## Server types
+### Web
+#### A web server stores and delivers data or services on websites over the internet. Once a user has made a request to the web server, it then takes the relevant HTML page sending it to the users web browser. Any computer system can be used as web server via server software and the internet, so that it can provide the services such as software and commercial packages. Thousands of request can be handles by a web server at any given time.
+
+### File
+#### A file server is responsible for the storage and management of data files for users on the network to access. The data that is stored within the file server can range from public data in which anyone is able to access on the network, to then private data which only a specific set of user/s are able to access. 
+
+### Database
+#### A database server is a type of server that stores data in certain catagories or fields. The data that is stored on these servers are only related to one another so that if a request is made it will only show information about that certain subject. For example, if you scan an item at a shop, the system will then access the database and retrieve the data that is related to that item.
+
+### Combination
+#### A combination server is a type of server combines the functions of three different servers, which are a web, file and database server. Combining all three fulfil the functions of all the performing above tasks on a single server. 
+
+### Virtualisation
+#### A virtualised server is a server that was at once physical, but broken up into small virtual servers assisted by software. These servers provide web hosting, file or database services but this is masked as small individual servers so there is less hardware from a physical server.
+
+### Terminal Services
+#### Terminal services is a device that allows other computers that are connected to these devices with a path to another LAN or WAN, using this, the clients systems do not have to be connected to a router to make the connection.
 
 ## Interdependence of Workstation hardware 
+### Networking Software
+#### Networking software determines 
+Network software defines what is needed to create and maintain a network, regardless of if it is a LAN or WAN. Below are some examples of what is needed in order to create a network.
+
+### Client Software
+A client is a general term for any piece of software on a clients machine that performs a task. For example Microsoft Excel is a piece of client software. The software provides the user with a means to input and edit data or to make requests on the network depeding on the type of software.
+
+### Server Software
+Server software is installed on servers to allow that server to perform a certain task. The type of software installed on a server dictates what purpose it will have. The different tasks that a sever can perform includes web hosting, file transfer and acting as a dedicated email server.
+
+### Client Operating System
+A client operating system is software installed on a clients computer to enable it to operate on it own. It allowed the user to perform tasks such as web browsing on the machine it is installed on. Operating systems provide the clients computer with a detailed and extensive user interface to enable the user to use the computer as efficiently as possible.
+
+### Server Operating system
+A server operating system is the same concept as a client operating system, the difference being that a server operating systems enables additional features to help the server perform its functions effectively. such as tools to help with web hosting and features that aid with handling requests so the server does not get overwhelmed.
+
+### Firewall
+A firewall is a piece of software or hardware that determines what data can access a network by opening and closing different ports. a firewall is a key part in keeping networks secure, while the system itself cannot analyse incomming data and detect a threat, the rules it puts in place make it much harder for viruses to access the network as they are left with not a lot of ways in. This can help reduce the workload placed on dedicated anti-virus software
+
+### Proxies
+A proxy server is a server that handles web requests for any users connected to it. Normally, the user would make a request directly to the web server however when a proxy is set up, the user tells the proxy to make a request for it. The proxy then makes the request for the user. By doing this the proxy can check incoming data before it reaches the user, if it is deemed malicious or is banned on the netowork, the proxy can deny the request.
 
 ## Network Design
+####
 
 ## Evaluation of Network Design
+####
 
 ## Implemented System and Justification
+####
 
 ## Network Test Results
+####
 
