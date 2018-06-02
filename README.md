@@ -207,22 +207,22 @@
 
 ## Interdependence of Workstation hardware 
 ### Networking Software
-#### Networking software determines 
-Network software defines what is needed to create and maintain a network, regardless of if it is a LAN or WAN. Below are some examples of what is needed in order to create a network.
+#### Networking software determines what is needed to create and maintain a network, regardless if it is LAN or WAN. Here are some examples of what is needed to create a network:
 
 ### Client Software
-A client is a general term for any piece of software on a clients machine that performs a task. For example Microsoft Excel is a piece of client software. The software provides the user with a means to input and edit data or to make requests on the network depeding on the type of software.
+#### A client is a common term for any piece of software that is on a clients machine which performs that specific task. For example, Microsoft Word is a piece of client software. The software provides the means for the user to input and edit data or to make requests on the network depending on the type of software.
 
 ### Server Software
-Server software is installed on servers to allow that server to perform a certain task. The type of software installed on a server dictates what purpose it will have. The different tasks that a sever can perform includes web hosting, file transfer and acting as a dedicated email server.
+#### Server software is usually used on servers to perform a certain task for that server. Depending on the type of software that is installed on the server it then dictates what purpose it has. The different tasks that a server can perform includes web hosting, file transfer and acting as a dedicated email server.
 
 ### Client Operating System
-A client operating system is software installed on a clients computer to enable it to operate on it own. It allowed the user to perform tasks such as web browsing on the machine it is installed on. Operating systems provide the clients computer with a detailed and extensive user interface to enable the user to use the computer as efficiently as possible.
+#### Client operating system is a software that is installed on clients systems that has a function that allows it to operate on its own and complete its own functions. This can improve productivity with the system and can allow the system complete more tasks, for example web browsing. Operating systems can provide the clients computer with a more detailed and broad user interface to enable the user to use the computer as efficiently as possible.
 
 ### Server Operating system
-A server operating system is the same concept as a client operating system, the difference being that a server operating systems enables additional features to help the server perform its functions effectively. such as tools to help with web hosting and features that aid with handling requests so the server does not get overwhelmed.
+#### This operating system has the same conceopt as a client operating system, the different being that the server operating system allows different types of features to help the server function effectively. For example, this can help the server perform actions such as packet handling so the server does not get overwhelmed.
 
 ### Firewall
+#### A firewall is a piece of software that determines what data can access a network by opening and closing different ports. A firewall is one of the main security protocols that are used to keep networks secure, since the system itself is unable to analyse
 A firewall is a piece of software or hardware that determines what data can access a network by opening and closing different ports. a firewall is a key part in keeping networks secure, while the system itself cannot analyse incomming data and detect a threat, the rules it puts in place make it much harder for viruses to access the network as they are left with not a lot of ways in. This can help reduce the workload placed on dedicated anti-virus software
 
 ### Proxies
