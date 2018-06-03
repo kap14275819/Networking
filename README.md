@@ -222,11 +222,24 @@
 #### This operating system has the same conceopt as a client operating system, the different being that the server operating system allows different types of features to help the server function effectively. For example, this can help the server perform actions such as packet handling so the server does not get overwhelmed.
 
 ### Firewall
-#### A firewall is a piece of software that determines what data can access a network by opening and closing different ports. A firewall is one of the main security protocols that are used to keep networks secure, since the system itself is unable to analyse
-A firewall is a piece of software or hardware that determines what data can access a network by opening and closing different ports. a firewall is a key part in keeping networks secure, while the system itself cannot analyse incomming data and detect a threat, the rules it puts in place make it much harder for viruses to access the network as they are left with not a lot of ways in. This can help reduce the workload placed on dedicated anti-virus software
+#### A firewall is a piece of software that determines what data can access a network by opening and closing different ports. A firewall is one of the main security protocols that are used to keep networks secure, since the system itself is unable to analyse incoming data and detect a threat, the set of rules that are put in place within the software so that it is more difficult for viruses to access the network as there are not many way into the system. This can help reduce the workload placed on dedicated anti-virus software.
 
 ### Proxies
-A proxy server is a server that handles web requests for any users connected to it. Normally, the user would make a request directly to the web server however when a proxy is set up, the user tells the proxy to make a request for it. The proxy then makes the request for the user. By doing this the proxy can check incoming data before it reaches the user, if it is deemed malicious or is banned on the netowork, the proxy can deny the request.
+#### Proxy servers are servers that are able to handle web requests for any users connected to the server. Usually every user would have to make a request directly to the web server, however when a proxy server is set-up, the user tells the proxy to make a request for it, then the proxy will make the request for the user as instructed. The proxy server is able to check incoming data before it reaches the user, if the server finds anything malicious or something that is banned on the network, the proxy will then deny the request.
+
+
+### Network Comparison
+#### A network card is a device that is used to connect a computer to a computer network, to do this the card is able to exchange data using a suitable protocol to then gain a stable connection to the network. Wireless networks are networks that do not rely on any cabling but instead radio waves 
+A network card is a device used to connect a computer to a computer network, by exchanging the data with the network and using a suitable protocol to achieve connection. Wireless networks are networks that don’t rely on cables but rather radio waves and can connect via Wi-Fi hotspots to establish a connection. Mobile or a cellular network is network distributed through cells where each cell has a fixed transceiver or base station. From describing them, each network has unique features, mainly in how they need to work and it requirements.
+ 
+A network card would be the only one of the networks described that requires a wired input to connect, requiring at least a connection port, such as coaxial or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. In terms of the wireless networks, both use a wireless form, but a minor difference is that radio waves are used within the wireless network whereas mobile requires a dedicated control channel for transmitting digital information. Continuing with the mobile comparison, but in comparison to all three, mobile phones can only use the mobile network, as mobiles manipulate the frequencies for good connection to the network.
+
+Cabling Used
+Structured cabling is a system of cabling and hardware that provides a comprehensive communications infrastructure. It is mainly an organized approach to a cable network, where most elements of the network are done within the hardware, rather than using multiple cables. Network cables are hardware used for connecting one device to another and for transmitting information and data between computers, routers, switches and storage are networks. Network cables are mostly different between each other, mainly having different ports or cabling types. The common types of cabling are:
+
+Patch Cables are commonly ethernet cables used for linking a computer to a hub, switch or router, or even other devices to them. This type of cabling is used primarily for building home computer networks and those that need wired access when mobile, such as in hotels.
+Shielded Cables are ethernet cables but are composed of insulated conductors enclosed within a conductive layer, either being copper or aluminium.
+Twisted pair are copper wire used for connecting computers both home and business together. The copper wires are twisted around each other, so to prevent any crosstalk and electromagnetic induction between the wires.
 
 ## Network Design
 ####
