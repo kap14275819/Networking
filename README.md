@@ -231,7 +231,7 @@
 ### Network Comparison
 #### A network card is a device that is used to connect a computer to a computer network, to do this the card is able to exchange data using a suitable protocol to then gain a stable connection to the network. Wireless networks are networks that do not rely on any cabling but instead radio waves and is able to connect via Wi-Fi hotspots. Mobile or a cellular network is a network that is distributed through cells where each cell has a fixed transceiver or base station. 
  
-#### A network card would be the only network that would require a wired input to connect, the way they connect it is through a coaxial or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. But the difference between a wireless network is that it uses radio waves within the network whereas mobile devices require a dedicated control channel for transmitting digital information. So the comparison with mobile and in comparison to all three is that mobile phone can only use a mobile network, as mobiles manipulate the frequencies for better connection to the network.
+#### A network card would be the only network that would require a wired input to connect, the way they connect it is through a coaxial or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. But the difference between a wireless network is that it uses radio waves within the network whereas mobile devices require a dedicated control channel for transmitting digital information. So, the comparison with mobile and in comparison, to all three is that mobile phone can only use a mobile network, as mobiles manipulate the frequencies for better connection to the network.
 
 ### Cabling Used
 #### Structured cabling is a system of cabling and hardware that allow comprehensive communications infrastructure. This is a main organised approach to a cable network and most of the elements of the network are done within the hardware, rather than using multiple cables. Network cables are a piece of hardware that are used for connecting one device to another and is used to transmit data between routers, computers, switches and storage networks. There are many different types of network cables, which have different ports that they connect to and cabling types. The most common types of cabling are:
@@ -252,7 +252,6 @@
 ### Local Workstation Architecture
 #### Workstation computers are specialised computers that are able at completing a set task or tasks at a faster and more capable rate. These machines are very similar to a private home computer however this type of system is always connected onto the LAN that it is under, this allows it to share its resources and also process resources within the LAN network. The specialised computer will usually have a much better processor than on a private computer, this will then allow the workstation to run more tasks and it may also require extra memory and clock speed to support with all the data that will be transferred. Despite being one user only, it can also be remotely accessed by other users over the network. There are many different uses of workstation computers, however they can be quite costly in order to obtain.
 
-
 ### System Bus
 #### A system bus is a form of a connection that is able to carry data between the microprocessor of the computer and the main memory of the computer, essentially providing a communication pathway for the data between the major components of the computer system. This usually works by having the data carried within the motherboard however can also be carried between the CPU and also other components. The address of the bus is where the data will be sent and will determine the route for the data when sent, the control of the system bus is used to identify the type of operation the data requires when it arrives at its destination. The lines or pins of a bus are as followed:
 
@@ -261,6 +260,7 @@
 ##### Data – This is transferred between peripherals, memory and the processor.
 
 ## Network Design
+### Architecture 
 #### The requirements that had to be met for the network that i was asked to design were for two LANs, both LANs having 3 PCs, a server and a router. These had pre-configured IP addresses that have to be assigned to each of the PCs, servers and routers. These requirements are then extended to have the two LAN networks become a Wide Area Network(WAN) where the PCs are able to communicate from one network to the other, the other extension was to add a network printer and a wireless access point.
 ![PLAN](https://github.com/kap14275819/Networking/blob/master/Packet%20tracer%20Plan.jpg)
 ### Design requirements
@@ -288,12 +288,14 @@
 #### Router IP:
 
 ##### 192.168.10.1
-## Evaluation of Network Design
-####
 
 ## Implemented System and Justification
+![Packet tracer](https://github.com/kap14275819/Networking/blob/master/WAN.PNG)
 ####
 
 ## Network Test Results
+####
+
+## Evaluation of Network Design
 ####
 
