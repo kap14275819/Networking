@@ -295,8 +295,15 @@
 
 #### The cabling that was used throughout most of the network was copper straight through which was the standard ethernet conneciton between ports. This was chosen firstly since most of the ports on the system did not have a fibre optic port and also because of the cost effectiveness of the connection, despite fibre optic being the more efficient cable and the network being small, the connection is still effective so the need for fibre optic would be wasteful on such a small network. The connection between the two LANs was made through the router and the Serial DTE connection was used to have both of the router connected to then create the WAN out of the two LANs. The DTE connection was chosen over the DCE because of the device types used.
 ## Network Test Results
-####
 ![Test](https://github.com/kap14275819/Networking/blob/master/TEST%20WORK.PNG)
+### User Feedback
+|Name|Feedback|
+|----|--------|
+|Luke|Both of the networks work well and are able to connect within their own networks and are also able to connect other networks. No improvements needed.|
+|Codrin|The design of the network is very well made, the use of the star topology makes it easier to understand how the network works and this also allows the data to transmit much faster and routes to the correct PC.|
+### Analysis of Results
+#### By looking over all the testing carried out, all of the network features worked perfectly and performed exactly how the expected results would be. There were no failures throughout any of the testing phase, which was a huge achievement as usually there would always be one minor mistake in the creation of a network.
+#### The LANs set-up both worked correctly, the first one was created using the requirements and the second was copied but with the requirements of the address changed and the domain names also so that it may function properly. The WAN design and connection worked without any problems and was all successful, which allows the two LANs to join up to then create the Wide Area Network. Also when pinging across networks sometimes the connection would time out, so to make sure that would not happen, the gateway IP was assigned to all PCs on each network and the servers. This allowed for computers across the WAN to communicate effectively and without interruption. The configuration of the DNS server was also perfectly working and also helped in pinging the PCs across both networks much faster, as you won't have to type in the whole IP address. The optional requirements were also carried out and then tested to make sure that they are working, in which they both passed. The access point and the printer connected successfully to the network and working well, without causing any problems with the rest of the network. 
 
 ## Evaluation of Network Design
 ####
