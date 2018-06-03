@@ -261,7 +261,8 @@
 ##### Data – This is transferred between peripherals, memory and the processor.
 
 ## Network Design
-#### 
+#### The requirements that had to be met for the network that i was asked to design were for two LANs, both LANs having 3 PCs, a server and a router. These had pre-configured IP addresses that have to be assigned to each of the PCs, servers and routers. These requirements are then extended to have the two LAN networks become a Wide Area Network(WAN) where the PCs are able to communicate from one network to the other, the other extension was to add a network printer and a wireless access point.
+![PLAN](https://github.com/kap14275819/Networking/blob/master/Packet%20tracer%20Plan.jpg)
 ### Design requirements
 ### Network 1 (Simpsons)
 #### PC IPs:
@@ -269,7 +270,7 @@
 ##### 192.168.1.100
 ##### 192.168.1.101
 ##### 192.168.1.102
-#########  Server IP:
+#### Server IP:
 
 ##### 192.168.1.10
 #### Router IP:
