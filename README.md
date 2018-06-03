@@ -291,10 +291,12 @@
 
 ## Implemented System and Justification
 ![Packet tracer](https://github.com/kap14275819/Networking/blob/master/WAN.PNG)
-####
+#### This was the final system that was built including with the optional requirements such as the printers and wireless access points. The star topology was used in this design because of how the topology allows each of the PCs to get to its destination much faster than going through most of the devices on the network, such as a ring topology. Setting the network up in way allows data to be sent to the destination without any additional copies of that same data. This is a very simplistic topology, which allows the ease of connecting different machines to the system without the rest of the network being affected, since the printer and wireless access point was added whilst the network was still active and running. 
 
+#### The cabling that was used throughout most of the network was copper straight through which was the standard ethernet conneciton between ports. This was chosen firstly since most of the ports on the system did not have a fibre optic port and also because of the cost effectiveness of the connection, despite fibre optic being the more efficient cable and the network being small, the connection is still effective so the need for fibre optic would be wasteful on such a small network. The connection between the two LANs was made through the router and the Serial DTE connection was used to have both of the router connected to then create the WAN out of the two LANs. The DTE connection was chosen over the DCE because of the device types used.
 ## Network Test Results
 ####
+![Test](https://github.com/kap14275819/Networking/blob/master/TEST%20WORK.PNG)
 
 ## Evaluation of Network Design
 ####
