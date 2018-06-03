@@ -231,20 +231,62 @@
 ### Network Comparison
 #### A network card is a device that is used to connect a computer to a computer network, to do this the card is able to exchange data using a suitable protocol to then gain a stable connection to the network. Wireless networks are networks that do not rely on any cabling but instead radio waves and is able to connect via Wi-Fi hotspots. Mobile or a cellular network is a network that is distributed through cells where each cell has a fixed transceiver or base station. 
  
-#### A network card would be the only network that would require a wired input to connect, the way they connect it is through a coaxil or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. But the difference between a wireless network is that it uses radio waves within the network whereas mobile devices require a dedicated control channel for transmitting digital information. So the comparison with mobile and in comparison to all three is that mobile phone can only use a mobile network, as mobiles manipulate the frequencies for better connection to the network.
+#### A network card would be the only network that would require a wired input to connect, the way they connect it is through a coaxial or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. But the difference between a wireless network is that it uses radio waves within the network whereas mobile devices require a dedicated control channel for transmitting digital information. So the comparison with mobile and in comparison to all three is that mobile phone can only use a mobile network, as mobiles manipulate the frequencies for better connection to the network.
 
 ### Cabling Used
-#### Structured cabling is a system of cabling and hardware that allow comprehensive communications infrastructure. This is a main organised approach to a cable network and most of the elements of the network are done within the hardware, rather than using multiple cables. 
+#### Structured cabling is a system of cabling and hardware that allow comprehensive communications infrastructure. This is a main organised approach to a cable network and most of the elements of the network are done within the hardware, rather than using multiple cables. Network cables are a piece of hardware that are used for connecting one device to another and is used to transmit data between routers, computers, switches and storage networks. There are many different types of network cables, which have different ports that they connect to and cabling types. The most common types of cabling are:
 
-Structured cabling is a system of cabling and hardware that provides a comprehensive communications infrastructure. It is mainly an organized approach to a cable network, where most elements of the network are done within the hardware, rather than using multiple cables. Network cables are hardware used for connecting one device to another and for transmitting information and data between computers, routers, switches and storage are networks. Network cables are mostly different between each other, mainly having different ports or cabling types. The common types of cabling are:
+#### 1. Patch cables, these are ethernet cables that are used ti link a computer to a hub, switch or router, or even the possibility to other devices. These kinds of cables are used to connect home networks and small business networks as their length can be limiting, this means that they are much better at transferring data between two devices than other cables.
+#### 2. Shielded cables, are the same as patch cables but instead they are composed of insulated conductors that are enclosed within the conductive layer, which can be either copper or aluminium. This shielding that allows the signal to stay strong over a longer distance and it also protects against interference.
+#### 3. Twisted pair cables are two copper cables intertwined within the same wire. This allows for less crosstalk or possibly any form of electromagnetic interference when transferring data, this can protect any packets that might be lost due to the interference.
 
-Patch Cables are commonly ethernet cables used for linking a computer to a hub, switch or router, or even other devices to them. This type of cabling is used primarily for building home computer networks and those that need wired access when mobile, such as in hotels.
-Shielded Cables are ethernet cables but are composed of insulated conductors enclosed within a conductive layer, either being copper or aluminium.
-Twisted pair are copper wire used for connecting computers both home and business together. The copper wires are twisted around each other, so to prevent any crosstalk and electromagnetic induction between the wires.
+### Permissions
+#### Permissions are a security protocol that is used to help keep out unwanted packets or data, this is given to users or network administrators to define the rights to certain files on a network. The way this works is that the different users of each of the end systems or networking devices are able to set their own permissions and requirement for entry, these are usually set through admin privileges on different devices as it is the primary security protocol that allows unwanted data to be transferred. Here are two different forms of permissions that can be installed within a network or device:
+
+### NTFS
+#### NTFS is a form of permissions that are used for determining access to files and folders that are features commonly seen in Microsoft Windows. This permission allows for users who have the accessibility to gain full control over the files, they are able to read, write, edit and/or delete files when given the opportunity. NTFS has very flexible options as it means that users can be assigned specific functions, which makes it more organised and it also ensures that higher level access isn’t given to a huge number of users.
+
+### Shared Permissions
+#### Shared permissions are similar to NTFS however these are set for shared folders within a network. These permissions can determine the different levels of security and access which can only allow the selected people to view higher prioritised folders, which also depends of the levels of access they have. 
+
+### Local Workstation Architecture
+#### Workstation computers are specialised computers that are able at completing a set task or tasks at a faster and more capable rate. These machines are very similar to a private home computer however this type of system is always connected onto the LAN that it is under, this allows it to share its resources and also process resources within the LAN network. The specialised computer will usually have a much better processor than on a private computer, this will then allow the workstation to run more tasks and it may also require extra memory and clock speed to support with all the data that will be transferred. Despite being one user only, it can also be remotely accessed by other users over the network. There are many different uses of workstation computers, however they can be quite costly in order to obtain.
+
+
+### System Bus
+#### A system bus is a form of a connection that is able to carry data between the microprocessor of the computer and the main memory of the computer, essentially providing a communication pathway for the data between the major components of the computer system. This usually works by having the data carried within the motherboard however can also be carried between the CPU and also other components. The address of the bus is where the data will be sent and will determine the route for the data when sent, the control of the system bus is used to identify the type of operation the data requires when it arrives at its destination. The lines or pins of a bus are as followed:
+
+##### Address – The components pass memory to each other over this bus.
+##### Control – This is used to send signals for coordinating and managing the activities of motherboard components.
+##### Data – This is transferred between peripherals, memory and the processor.
 
 ## Network Design
-####
+#### 
+### Design requirements
+### Network 1 (Simpsons)
+#### PC IPs:
 
+##### 192.168.1.100
+##### 192.168.1.101
+##### 192.168.1.102
+#########  Server IP:
+
+##### 192.168.1.10
+#### Router IP:
+
+##### 192.168.1.1
+### Network 2 (Quahog)
+#### PC IPs:
+
+##### 192.168.10.100
+##### 192.168.10.101
+##### 192.168.10.102
+#### Server IP:
+
+##### 192.168.10.10
+#### Router IP:
+
+##### 192.168.10.1
 ## Evaluation of Network Design
 ####
 
